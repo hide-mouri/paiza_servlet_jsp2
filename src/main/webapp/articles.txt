@@ -1,0 +1,6 @@
+Hello World,paiza
+Hello Java,paiza
+Hello Servlet,paiza
+世界の皆さんコンニチハ,霧島
+にゃー,ネコ
+こんにちは,霧島
