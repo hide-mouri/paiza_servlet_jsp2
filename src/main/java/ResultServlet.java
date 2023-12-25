@@ -1,5 +1,4 @@
 
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -21,7 +20,7 @@ public class ResultServlet extends HttpServlet {
 		FileWriter filewriter = new FileWriter(file, true);
 
 		// 保存するファイルを指定する
-		filewriter.write(article + "," + System.getProperty("line.separator"));
+		filewriter.write(article + "," + userName + System.getProperty("line.separator"));
 		filewriter.close();
 
 		request.setAttribute("article", article);
